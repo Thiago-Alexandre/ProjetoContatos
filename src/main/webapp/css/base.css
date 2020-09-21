@@ -1,0 +1,84 @@
+body{
+    font-family: "Lucida Sans", sans-serif;
+    background-color: #000000;
+    padding: 0px;
+    color: #000000;
+}
+
+.modulo{
+    background-color: #29a329;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: #29a329;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+main{
+    background-color: #000000;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+table{
+    width: 100%;
+    margin:0 auto;
+    border:0;
+    box-shadow: 0 5px 30px #000000;
+    border-spacing: 0;
+    background-color: #f2f2f2;
+}
+
+table th{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding:5px 10px;
+}
+
+table tr td{
+    padding:5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+table tr:nth-child(odd){
+    background-color: #e6e6e6;
+}
+
+table tr:hover td{
+    background-color: #cccccc;
+}
+
+table tr.selecionado td{
+    background-color: #aff7ff;
+}
+
+form{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    padding: 10px;
+}
+
+.campo{
+    width: 80%;
+}
+
+#listaContatos tr.selecionado td{
+  background-color: #aff7ff;
+}

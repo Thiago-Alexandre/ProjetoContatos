@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Contatos</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" ></script>
+        <script type="text/javascript" src="js/javascripts.js"></script>
+    </head>
+    <body>
+        <header class="modulo">
+            <h1>Consumindo API REST</h1>    
+        </header>
+        <nav>
+            <a href="index.html">Início</a>
+        </nav>
+        <main>
+            <section id="cadastro" class="modulo">
+                <h2>Cadastro de Contatos:</h2>
+                <form id="formCadastro">
+                    <input type="hidden" id="id" value="">
+                    <label for="nome">Nome:</label>
+                    <br>
+                    <input type="text" class="campo" id="nome" maxlength="50" required placeholder="Digite seu nome">
+                    <br><br>
+                    <label for="email">E-mail:</label>
+                    <br>
+                    <input type="text" class="campo" id="email" maxlength="50" required placeholder="Digite seu e-mail">
+                    <br><br>
+                    <label for="fone">Telefone:</label>
+                    <br>
+                    <input type="text" class="campo" id="fone" maxlength="15" required placeholder="Digite seu telefone">
+                    <br><br>
+                    
+                    <input type="button" value="Salvar" id="salvar">
+                    <input type="button" value="Excluir" id="excluir" disabled>
+                    <input type="button" value="Limpar" id="limpar">
+                    
+                </form>
+                <form id="formBusca">
+                    <label for="idBusca">ID:</label>
+                    <br>
+                    <input type="text" id="idBusca" maxlength="5">
+                    <br><br>
+                    <input type="button" value="Pesquisar" id="pesquisar">
+                </form>
+            </section>
+            <section id="lista" class="modulo">
+                <h2>Contatos Cadastrados:</h2>
+                <form id="formLista">
+                    <table id="listaContatos"></table>
+                </form>
+            </section>
+        </main>
+        <footer class="modulo">
+            <h3>Programação V - Thiago Alexandre Buerger</h3>
+        </footer>
+    </body>
+</html>
