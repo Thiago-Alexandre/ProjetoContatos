@@ -25,3 +25,5 @@ CREATE TABLE contato (
 	fone VARCHAR(15) NOT NULL
 );
 ```
+
+Obs: Única validação realizada na entrada dos dados refere-se a campos vazios. Os dados informados para a pesquisa de contatos não apresenta validação!
